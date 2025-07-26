@@ -1,12 +1,12 @@
 # Python-Projects
 A comprehensive set of Python projects ranging from basic exercises to full applications. Perfect for students, self-learners, and anyone looking to master Python through hands-on experience.
 
-🏦 Python Bank Account Management System
+# 🏦 Python Bank Account Management System
 A simple Bank Account Management System built in Python. This program allows users to create and manage bank accounts, perform transactions (deposit, withdrawal, transfer), view transaction history, and generate summary reports.
 
 It uses file handling with Pickle to persist account and transaction data, and includes error handling, interactive menus, and NumPy for transaction statistics.
 
-✨ Features
+# ✨ Features
 ✅ Account Management
 
 Create new accounts (auto-generated account number)
@@ -55,7 +55,7 @@ User login with username & password
 
 Use of lambda functions for quick calculations
 
-🛠 Technologies Used
+# 🛠 Technologies Used
 Python 3.x
 
 Pickle (for saving/loading account data)
@@ -64,7 +64,7 @@ NumPy (for summary statistics)
 
 datetime (for transaction timestamps)
 
-📂 Project Structure
+# 📂 Project Structure
 bash
 Copy
 Edit
@@ -74,29 +74,20 @@ bank_management/
 ├── accounts.pkl         # Pickle file storing account data
 ├── transactions.pkl     # Pickle file storing transaction history
 └── README.md            # Project documentation
-🚀 How to Run
+# 🚀 How to Run
 1️⃣ Clone the Repository
-
-bash
-Copy
-Edit
 git clone https://github.com/your-username/bank-account-management.git
 cd bank-account-management
-2️⃣ Install Requirements (NumPy)
 
-bash
-Copy
-Edit
+2️⃣ Install Requirements (NumPy)
 pip install numpy
+
 3️⃣ Run the Notebook
 Open bank_system.ipynb in Jupyter Notebook and run all cells.
 
-🧑‍💻 Usage
+# 🧑‍💻 Usage
 When you run the program, you’ll see an interactive menu:
 
-markdown
-Copy
-Edit
 ==== Bank Account Management ====
 1. Open a New Account
 2. View Account Details
@@ -108,7 +99,7 @@ Edit
 Enter your choice:
 Follow the prompts to create accounts, perform transactions, or view reports.
 
-📊 Example Output
+# 📊 Example Output
 ✅ Creating a new account:
 
 yaml
@@ -128,24 +119,24 @@ Enter amount to deposit: 2000
 ✅ Deposit successful! New balance: 7000
 ✅ Viewing transaction history:
 
-yaml
-Copy
-Edit
 Date        | Transaction | Amount
 2025-07-26  | Deposit     | 2000
 2025-07-26  | Withdraw    | 500
-📌 Future Improvements
+
+# 📌 Future Improvements
 Implement a login system for multiple users
 
 Add a GUI version using Tkinter or PyQt
 
 Support for interest calculation
 
-🤝 Contributing
+# 🤝 Contributing
 Feel free to fork this repository and submit pull requests with improvements!
 
-📝 License
+# 📝 License
 This project is for educational purposes and is free to use.
+
+#############################################################################################
 
 # 🛒 Super Market Billing System
 
