@@ -1,0 +1,8 @@
+Welcome Farook mohammad,
+State Bank of India.
+Your savings account has been created successfully.
+mpin : 1234
+Initial balance : ₹ 5,000.00
+Deposit : ₹ 4,000.00,Date: 26-07-2025
+Withdrawal : ₹ 2,000.00,Date: 26-07-2025
+Transfer : ₹ 1,200.00,Date: 26-07-2025
