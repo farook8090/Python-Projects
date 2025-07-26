@@ -136,7 +136,7 @@ Feel free to fork this repository and submit pull requests with improvements!
 # 📝 License
 This project is for educational purposes and is free to use.
 
-#############################################################################################
+#######################################################################################
 
 # 🛒 Super Market Billing System
 
