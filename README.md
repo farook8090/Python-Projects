@@ -102,18 +102,12 @@ Follow the prompts to create accounts, perform transactions, or view reports.
 # 📊 Example Output
 ✅ Creating a new account:
 
-yaml
-Copy
-Edit
 Enter account holder's name: Alice
 Account type (savings/current): savings
 Initial balance: 5000
 ✅ Account created successfully! Your Account Number is 1001
 ✅ Depositing money:
 
-yaml
-Copy
-Edit
 Enter account number: 1001
 Enter amount to deposit: 2000
 ✅ Deposit successful! New balance: 7000
@@ -135,6 +129,104 @@ Feel free to fork this repository and submit pull requests with improvements!
 
 # 📝 License
 This project is for educational purposes and is free to use.
+
+#######################################################################################
+
+# 🎬 IMDB Movie Analysis
+📌 Objective
+As a data analyst intern at IMDb, the goal of this project is to explore and analyze the IMDb Movies dataset to gain insights into movie trends, popular genres, and key factors that influence a movie's success. This involves answering specific business questions through data wrangling, visualization, and statistical analysis using Python.
+
+🧰 Tools and Libraries
+The following Python libraries are used in this analysis:
+
+Pandas – For data manipulation and analysis
+
+NumPy – For numerical operations
+
+Matplotlib – For data visualization
+
+Seaborn – For advanced statistical plotting
+
+Warnings & OS – For clean output and file handling
+
+# 📂 Dataset
+Source: IMDb Dataset (Google Drive)
+The dataset contains information on a wide range of movies, including attributes like title, genre, rating, votes, budget, revenue, and more.
+
+Each row represents a unique movie.
+Each column contains specific attributes related to that movie.
+
+✅ Tasks & Analysis Workflow
+1. 📦 Project Setup and Data Loading
+Load the dataset
+
+Understand the structure using .shape and .head()
+
+2. 🔍 Data Overview and Basic Exploration
+Use .info() and .describe() to get initial insights
+
+Identify potential data quality issues
+
+3. 🧹 Data Cleaning
+Handle missing values and data type conversions
+
+Detect and treat outliers
+
+4. 📊 Univariate Analysis
+Histogram of movie runtimes
+
+Bar chart of most frequent genres
+
+5. 🔗 Bivariate Analysis
+Scatter plot of runtime vs. rating
+
+Box plot of ratings by genre
+
+Correlation between votes, budget, and revenue
+
+6. 🎭 Genre-Specific Analysis
+Identify genres with highest average rating
+
+Analyze how genre popularity changes over time
+
+7. 📆 Year & Trend Analysis
+Trends in average ratings over years
+
+Movie release counts by year
+
+8. 📉 Multivariate Analysis
+Popular genres by decade
+
+Heatmap or pairplot between budget, revenue, ratings
+
+Analysis of genre and year-wise rating patterns
+
+9. 🧠 Insights and Summary
+Key Questions:
+What are three major insights you discovered about movie trends, genres, or ratings?
+
+What other questions could be asked or what additional data would improve the analysis?
+
+# 📈 Sample Outputs
+📉 "Drama and Biography genres have the highest average IMDb ratings."
+
+🎥 "Action and Sci-Fi genres have surged in popularity since the 2000s."
+
+💰 "Movies with higher budgets tend to receive more votes, but not necessarily higher ratings."
+
+# 📎 Submission Guidelines
+Submit the final version as a Jupyter Notebook (.ipynb) via GitHub.
+
+Ensure the notebook is well-commented with clear logic and visualizations.
+
+Include sample outputs and conclusions in markdown cells.
+
+Share only the GitHub repository link.
+
+# 📬 Author
+Role: Data Analyst Intern
+Project: IMDb Movie Analysis
+Organization: IMDb (Fictional Internship Scenario)
 
 #######################################################################################
 
