@@ -1,0 +1,111 @@
+<div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif; line-height:1.6; color:#0f172a; padding:24px; max-width:900px; margin:0 auto; border:1px solid #e2e8f0; border-radius:16px;">
+  <header style="display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:12px;">
+    <h1 style="margin:0; font-size:28px; letter-spacing:0.2px;">Customer Sentiment Analysis Report</h1>
+    <span style="font-size:12px; padding:6px 10px; border-radius:999px; background:#f1f5f9; color:#334155;">iPhone 15 (128GB) · Flipkart</span>
+  </header>
+
+  <p style="margin-top:0; font-size:14px; color:#475569;">
+    Summary of insights derived from 300 Flipkart customer reviews (ratings, review text) processed for polarity/subjectivity.
+  </p>
+
+  <hr style="border:none; border-top:1px solid #e2e8f0; margin:16px 0 24px;" />
+
+  <!-- 1. Overview -->
+  <section id="overview" style="margin-bottom:28px;">
+    <h2 style="margin:0 0 8px; font-size:20px;">1) Overview of the Data Collection & Cleaning</h2>
+    <ul style="margin:8px 0 0 18px;">
+      <li><strong>Source:</strong> Flipkart product reviews for iPhone 15 128GB (300 reviews captured).</li>
+      <li><strong>Fields scraped:</strong> Username, review text, star rating.</li>
+      <li><strong>Cleaning:</strong> Normalized column types, removed special characters/emoji from text, ensured equal lengths, handled missing values, converted ratings to numeric.</li>
+      <li><strong>Sentiment engine:</strong> TextBlob polarity (−1 to +1) & subjectivity (0 to 1).</li>
+    </ul>
+    <div style="margin-top:10px; font-size:12px; color:#64748b;">
+      <em>Note:</em> This report summarizes patterns visible across the 300-review sample.
+    </div>
+  </section>
+
+  <!-- 2. Results -->
+  <section id="results" style="margin-bottom:28px;">
+    <h2 style="margin:0 0 8px; font-size:20px;">2) Sentiment Analysis Results</h2>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-top:8px;">
+      <div style="border:1px solid #e2e8f0; border-radius:12px; padding:12px;">
+        <h3 style="margin:0 0 6px; font-size:14px; text-transform:uppercase; letter-spacing:0.6px; color:#475569;">Ratings Snapshot</h3>
+        <ul style="margin:6px 0 0 18px;">
+          <li><strong>5★:</strong> Dominant share (very positive)</li>
+          <li><strong>4★:</strong> Moderate share (minor issues)</li>
+          <li><strong>≤3★:</strong> Small share (battery/heating/60Hz)</li>
+        </ul>
+      </div>
+      <div style="border:1px solid #e2e8f0; border-radius:12px; padding:12px;">
+        <h3 style="margin:0 0 6px; font-size:14px; text-transform:uppercase; letter-spacing:0.6px; color:#475569;">Sentiment Scores</h3>
+        <ul style="margin:6px 0 0 18px;">
+          <li><strong>Average polarity:</strong> High positive (most reviews between ~0.6 and 1.0)</li>
+          <li><strong>Average subjectivity:</strong> High (~0.7–1.0) → opinion-heavy, experience-based</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="border:1px solid #e2e8f0; border-radius:12px; padding:12px; margin-top:12px;">
+      <h3 style="margin:0 0 6px; font-size:14px; text-transform:uppercase; letter-spacing:0.6px; color:#475569;">Theme Highlights</h3>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:10px;">
+        <div>
+          <strong style="display:block; margin-bottom:4px;">Positive</strong>
+          <ul style="margin:6px 0 0 18px;">
+            <li>Excellent camera quality (photos & video)</li>
+            <li>Premium, light design; great in-hand feel</li>
+            <li>Smooth performance (A16 Bionic)</li>
+            <li>Display quality & Dynamic Island usefulness</li>
+            <li>Apple ecosystem (continuity, reliability)</li>
+          </ul>
+        </div>
+        <div>
+          <strong style="display:block; margin-bottom:4px;">Negative</strong>
+          <ul style="margin:6px 0 0 18px;">
+            <li>Battery drains faster for heavy users</li>
+            <li>Heating during charging, gaming, long camera use</li>
+            <li>60Hz refresh rate feels dated at this price</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Insights -->
+  <section id="insights" style="margin-bottom:28px;">
+    <h2 style="margin:0 0 8px; font-size:20px;">3) Insights</h2>
+    <ul style="margin:8px 0 0 18px;">
+      <li><strong>Camera as the hero:</strong> Most frequently praised aspect; users cite sharper 48MP shots, strong portrait/cinematic video.</li>
+      <li><strong>Perceived value:</strong> Many upgraders (from Android/iPhone 11–13) report clearly better performance and display brightness.</li>
+      <li><strong>Friction points:</strong> Battery & thermal behavior constrain some heavy-use scenarios; 60Hz refresh rate is a recurring critique.</li>
+      <li><strong>Expectation setting matters:</strong> When buyers know the 60Hz/battery trade-offs, satisfaction remains high due to camera/performance.</li>
+    </ul>
+  </section>
+
+  <!-- 4. Recommendations -->
+  <section id="recommendations" style="margin-bottom:8px;">
+    <h2 style="margin:0 0 8px; font-size:20px;">4) Recommendations</h2>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px;">
+      <div style="border:1px solid #e2e8f0; border-radius:12px; padding:12px;">
+        <h3 style="margin:0 0 6px; font-size:14px; text-transform:uppercase; letter-spacing:0.6px; color:#475569;">Product Improvements (Apple)</h3>
+        <ul style="margin:6px 0 0 18px;">
+          <li>Further optimize battery longevity and charging efficiency.</li>
+          <li>Improve thermal management for camera/gaming sessions.</li>
+          <li>Consider 90–120Hz display to match segment expectations.</li>
+        </ul>
+      </div>
+      <div style="border:1px solid #e2e8f0; border-radius:12px; padding:12px;">
+        <h3 style="margin:0 0 6px; font-size:14px; text-transform:uppercase; letter-spacing:0.6px; color:#475569;">Marketing Focus (Flipkart)</h3>
+        <ul style="margin:6px 0 0 18px;">
+          <li>Lead with <strong>camera excellence</strong>, <strong>premium design</strong>, and <strong>smooth performance</strong>.</li>
+          <li>Showcase real customer visuals/testimonials in PDP creatives.</li>
+          <li>Set clear expectations on refresh rate & typical battery life.</li>
+          <li>Promote trusted delivery, open-box checks, and exchange/bank offers.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer style="margin-top:18px; font-size:12px; color:#64748b;">
+    Built from 300 Flipkart reviews and TextBlob sentiment metrics. This HTML is notebook-friendly and print-ready.
+  </footer>
+</div>
