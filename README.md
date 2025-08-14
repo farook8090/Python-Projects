@@ -340,6 +340,7 @@ The goal is to understand customer sentiment trends, identify recurring issues, 
 # Review Length vs Sentiment
 
 ![Review Length vs Sentiment](https://github.com/farook8090/Python-Projects/blob/50d110554edb28aaa6e59cec33fedad1e8cf5a9d/Customer%20Sentiment%20Analysis/Review%20Length%20vs%20Sentiment.png)
+![Financial analysis](https://github.com/farook8090/ITC-Hotel/blob/df03875c36cd6c4d12cde6dd1d082b23cc802004/milestone%20images/2.jpg)
 
 
 
