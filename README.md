@@ -243,8 +243,6 @@ A simple Python-based billing system for a supermarket, built using Jupyter Note
 - Easily extendable to include stock management, discounts, categories, and more
 
 ## 🧾 Sample Menu
-
-```python
 menu = [
     {"sr_no": 1, "name": "Whole Milk (1 Gallon)", "price": 3.49},
     {"sr_no": 2, "name": "White Bread (Loaf)", "price": 2.49},
@@ -339,7 +337,3 @@ The goal is to understand customer sentiment trends, identify recurring issues, 
 # Review Length vs Sentiment
 
 ![Review Length vs Sentiment](https://github.com/farook8090/Python-Projects/blob/50d110554edb28aaa6e59cec33fedad1e8cf5a9d/Customer%20Sentiment%20Analysis/Review%20Length%20vs%20Sentiment.png)
-
-
-
-
