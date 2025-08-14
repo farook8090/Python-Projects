@@ -323,12 +323,6 @@ The goal is to understand customer sentiment trends, identify recurring issues, 
 
 ---
 
-## 📜 How to Run
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
-
 ## Data Visualization using Matplot library in Python.
 
 # Distribution of positive and negative sentiments for the 300 reviews
