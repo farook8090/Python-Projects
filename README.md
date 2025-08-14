@@ -251,8 +251,7 @@ menu = [
     {"sr_no": 3, "name": "Brown Eggs (Dozen)", "price": 3.29},
     {"sr_no": 4, "name": "Chicken Breast (per lb)", "price": 5.29},
     {"sr_no": 5, "name": "Fuji Apples (per lb)", "price": 1.49}
-]```
-
+]
 
 # 📊 Customer Sentiment Analysis – iPhone 15 (128GB) Flipkart Reviews
 
