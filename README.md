@@ -331,3 +331,22 @@ The goal is to understand customer sentiment trends, identify recurring issues, 
 
 ## Data Visualization using Matplot library in Python.
 
+# Distribution of positive and negative sentiments for the 300 reviews
+
+![Distribution of positive and negative sentiments for the 300 reviews](https://github.com/farook8090/Python-Projects/blob/50d110554edb28aaa6e59cec33fedad1e8cf5a9d/Customer%20Sentiment%20Analysis/Distribution%20of%20positive%20and%20negative%20sentiments%20for%20the%20300%20reviews.png)
+
+# Average Sentiment Polarity vs Rating
+
+![Average Sentiment Polarity vs Rating](https://github.com/farook8090/Python-Projects/blob/50d110554edb28aaa6e59cec33fedad1e8cf5a9d/Customer%20Sentiment%20Analysis/Average%20Sentiment%20Polarity%20vs%20Rating.png)
+
+# Negative Reviews Word Cloud
+
+![Negative Reviews Word Cloud](https://github.com/farook8090/Python-Projects/blob/50d110554edb28aaa6e59cec33fedad1e8cf5a9d/Customer%20Sentiment%20Analysis/Negative%20Reviews%20Word%20Cloud.png)
+
+# Review Length vs Sentiment
+
+![Review Length vs Sentiment](https://github.com/farook8090/Python-Projects/blob/50d110554edb28aaa6e59cec33fedad1e8cf5a9d/Customer%20Sentiment%20Analysis/Review%20Length%20vs%20Sentiment.png)
+
+
+
+
