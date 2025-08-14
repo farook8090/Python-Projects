@@ -252,3 +252,82 @@ menu = [
     {"sr_no": 4, "name": "Chicken Breast (per lb)", "price": 5.29},
     {"sr_no": 5, "name": "Fuji Apples (per lb)", "price": 1.49}
 ]
+
+
+# 📊 Customer Sentiment Analysis – iPhone 15 (128GB) Flipkart Reviews
+
+## 📌 Overview
+This project analyzes **300 customer reviews** for the iPhone 15 (128GB) model from **Flipkart**, applying text cleaning, sentiment analysis, and insight generation.  
+The goal is to understand customer sentiment trends, identify recurring issues, and suggest actionable improvements.
+
+---
+
+## 📂 Data Collection & Cleaning
+- **Source**: Product review pages from Flipkart (iPhone 15 – 128GB model).
+- **Scraping Tools**: Python + Selenium for automated data extraction.
+- **Fields Collected**:
+  - `username`
+  - `review_text`
+  - `rating`
+- **Cleaning Steps**:
+  - Removed special characters and emojis from review text.
+  - Converted ratings to numeric type.
+  - Handled missing values (none in this dataset).
+  - Ensured all columns had equal lengths.
+
+---
+
+## 📈 Sentiment Analysis
+- **Library Used**: [TextBlob](https://textblob.readthedocs.io/en/dev/)
+- **Metrics**:
+  - **Polarity**: Sentiment score from `-1` (negative) to `+1` (positive).
+  - **Subjectivity**: Score from `0` (objective) to `1` (subjective/opinion-based).
+
+**Results Summary**:
+- **Rating Distribution**:
+  - ⭐⭐⭐⭐⭐ – Majority (strongly positive sentiment)
+  - ⭐⭐⭐⭐ – Moderate share (minor issues)
+  - ⭐⭐⭐ or less – Small share (battery, heating, refresh rate complaints)
+- **Average Polarity**: High positive (~0.6–1.0 for most reviews)
+- **Average Subjectivity**: High (~0.7–1.0, opinion-heavy)
+
+---
+
+## 🔍 Key Insights
+**Positive Highlights**:
+- **Camera quality** is the most praised feature (photos & video).
+- **Premium, lightweight design** with good in-hand feel.
+- Smooth, lag-free **performance** (A16 Bionic).
+- Display brightness and **Dynamic Island** appreciated.
+- Seamless integration with the **Apple ecosystem**.
+
+**Negative Themes**:
+- Battery drains faster than expected for heavy users.
+- Heating during charging, gaming, or extended camera usage.
+- 60Hz refresh rate feels outdated at this price point.
+
+---
+
+## 💡 Recommendations
+
+**For Apple**:
+- Improve battery life and charging efficiency.
+- Optimize thermal management for camera/gaming.
+- Consider higher refresh rate (90–120Hz) in future models.
+
+**For Flipkart Marketing**:
+- Highlight camera quality, design, and performance in ads.
+- Include real customer photos and testimonials.
+- Be transparent about battery performance and refresh rate.
+- Emphasize deals, exchange offers, and fast delivery.
+
+---
+
+## 📜 How to Run
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
+
+## Data Visualization using Matplot library in Python.
+
